@@ -1,7 +1,5 @@
 package co.aoscp.musicx.service.notification;
 
-import android.app.Notification;
-import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.ComponentName;
 import android.content.Intent;
@@ -24,34 +22,13 @@ import co.aoscp.musicx.service.MusicService;
 import co.aoscp.musicx.ui.activities.MainActivity;
 import co.aoscp.musicx.util.PreferenceUtil;
 
-import static android.content.Context.NOTIFICATION_SERVICE;
 import static co.aoscp.musicx.service.MusicService.ACTION_REWIND;
 import static co.aoscp.musicx.service.MusicService.ACTION_SKIP;
 import static co.aoscp.musicx.service.MusicService.ACTION_TOGGLE_PAUSE;
 
 import co.aoscp.musicx.R;
 
-/**
- * @author Karim Abou Zeid (kabouzeid)
- */
-
-public class PlayingNotificationImpl24 implements PlayingNotification {
-    private static final int NOTIFY_MODE_FOREGROUND = 1;
-    private static final int NOTIFY_MODE_BACKGROUND = 0;
-
-    private MusicService service;
-
-    private NotificationManager notificationManager;
-
-    private int notifyMode = NOTIFY_MODE_BACKGROUND;
-
-    private boolean stopped;
-
-    @Override
-    public synchronized void init(MusicService service) {
-        this.service = service;
-        notificationManager = (NotificationManager) service.getSystemService(NOTIFICATION_SERVICE);
-    }
+public class PlayingNotificationImpl24 extends PlayingNotification {
 
     @Override
     public synchronized void update() {
@@ -141,35 +118,6 @@ public class PlayingNotificationImpl24 implements PlayingNotification {
         final ComponentName serviceName = new ComponentName(service, MusicService.class);
         Intent intent = new Intent(action);
         intent.setComponent(serviceName);
-
         return PendingIntent.getService(service, 0, intent, 0);
-    }
-
-    private void updateNotifyModeAndPostNotification(Notification notification) {
-        int newNotifyMode;
-        if (service.isPlaying()) {
-            newNotifyMode = NOTIFY_MODE_FOREGROUND;
-        } else {
-            newNotifyMode = NOTIFY_MODE_BACKGROUND;
-        }
-
-        if (notifyMode != newNotifyMode && newNotifyMode == NOTIFY_MODE_BACKGROUND) {
-            service.stopForeground(false);
-        }
-
-        if (newNotifyMode == NOTIFY_MODE_FOREGROUND) {
-            service.startForeground(NOTIFICATION_ID, notification);
-        } else if (newNotifyMode == NOTIFY_MODE_BACKGROUND) {
-            notificationManager.notify(NOTIFICATION_ID, notification);
-        }
-
-        notifyMode = newNotifyMode;
-    }
-
-    @Override
-    public synchronized void stop() {
-        stopped = true;
-        service.stopForeground(true);
-        notificationManager.cancel(NOTIFICATION_ID);
     }
 }
