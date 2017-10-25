@@ -1,12 +1,12 @@
-package com.kabouzeid.gramophone.helper.menu;
+package com.aoscp.musicx.helper.menu;
 
 import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentActivity;
 
-import com.kabouzeid.gramophone.dialogs.AddToPlaylistDialog;
-import com.kabouzeid.gramophone.dialogs.DeleteSongsDialog;
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.model.Song;
+import com.aoscp.musicx.dialogs.AddToPlaylistDialog;
+import com.aoscp.musicx.dialogs.DeleteSongsDialog;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.model.Song;
 
 import org.omnirom.gramophone.R;
 

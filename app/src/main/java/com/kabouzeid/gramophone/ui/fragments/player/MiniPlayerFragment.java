@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.player;
+package com.aoscp.musicx.ui.fragments.player;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -15,11 +15,11 @@ import android.widget.TextView;
 
 import com.kabouzeid.appthemehelper.ThemeStore;
 import com.kabouzeid.appthemehelper.util.ATHUtil;
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.helper.MusicProgressViewUpdateHelper;
-import com.kabouzeid.gramophone.helper.PlayPauseButtonOnClickHandler;
-import com.kabouzeid.gramophone.ui.fragments.AbsMusicServiceFragment;
-import com.kabouzeid.gramophone.views.PlayPauseDrawable;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.helper.MusicProgressViewUpdateHelper;
+import com.aoscp.musicx.helper.PlayPauseButtonOnClickHandler;
+import com.aoscp.musicx.ui.fragments.AbsMusicServiceFragment;
+import com.aoscp.musicx.views.PlayPauseDrawable;
 
 import me.zhanghai.android.materialprogressbar.MaterialProgressBar;
 

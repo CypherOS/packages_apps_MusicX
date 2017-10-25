@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.mainactivity.library.pager;
+package com.aoscp.musicx.ui.fragments.mainactivity.library.pager;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,12 +7,12 @@ import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 import android.support.v7.widget.GridLayoutManager;
 
-import com.kabouzeid.gramophone.adapter.artist.ArtistAdapter;
-import com.kabouzeid.gramophone.interfaces.LoaderIds;
-import com.kabouzeid.gramophone.loader.ArtistLoader;
-import com.kabouzeid.gramophone.misc.WrappedAsyncTaskLoader;
-import com.kabouzeid.gramophone.model.Artist;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
+import com.aoscp.musicx.adapter.artist.ArtistAdapter;
+import com.aoscp.musicx.interfaces.LoaderIds;
+import com.aoscp.musicx.loader.ArtistLoader;
+import com.aoscp.musicx.misc.WrappedAsyncTaskLoader;
+import com.aoscp.musicx.model.Artist;
+import com.aoscp.musicx.util.PreferenceUtil;
 
 import org.omnirom.gramophone.R;
 

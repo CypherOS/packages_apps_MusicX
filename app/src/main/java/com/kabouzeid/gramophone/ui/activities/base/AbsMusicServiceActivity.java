@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.activities.base;
+package com.aoscp.musicx.ui.activities.base;
 
 import android.Manifest;
 import android.content.BroadcastReceiver;
@@ -12,9 +12,9 @@ import android.os.IBinder;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.interfaces.MusicServiceEventListener;
-import com.kabouzeid.gramophone.service.MusicService;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.interfaces.MusicServiceEventListener;
+import com.aoscp.musicx.service.MusicService;
 
 import org.omnirom.gramophone.R;
 

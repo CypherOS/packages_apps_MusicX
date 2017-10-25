@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.dialogs;
+package com.aoscp.musicx.dialogs;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.support.v4.app.DialogFragment;
 import android.text.InputType;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.kabouzeid.gramophone.util.PlaylistsUtil;
+import com.aoscp.musicx.util.PlaylistsUtil;
 
 import org.omnirom.gramophone.R;
 

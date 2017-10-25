@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter.song;
+package com.aoscp.musicx.adapter.song;
 
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
@@ -11,11 +11,11 @@ import com.h6ah4i.android.widget.advrecyclerview.draggable.DraggableItemAdapter;
 import com.h6ah4i.android.widget.advrecyclerview.draggable.DraggableItemViewHolder;
 import com.h6ah4i.android.widget.advrecyclerview.draggable.ItemDraggableRange;
 import com.h6ah4i.android.widget.advrecyclerview.draggable.annotation.DraggableItemStateFlags;
-import com.kabouzeid.gramophone.dialogs.RemoveFromPlaylistDialog;
-import com.kabouzeid.gramophone.interfaces.CabHolder;
-import com.kabouzeid.gramophone.model.PlaylistSong;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.ViewUtil;
+import com.aoscp.musicx.dialogs.RemoveFromPlaylistDialog;
+import com.aoscp.musicx.interfaces.CabHolder;
+import com.aoscp.musicx.model.PlaylistSong;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.ViewUtil;
 
 import org.omnirom.gramophone.R;
 

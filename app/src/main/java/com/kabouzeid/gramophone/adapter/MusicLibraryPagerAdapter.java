@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter;
+package com.aoscp.musicx.adapter;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.util.SparseArray;
 import android.view.ViewGroup;
 
-import com.kabouzeid.gramophone.ui.fragments.mainactivity.library.pager.AlbumsFragment;
-import com.kabouzeid.gramophone.ui.fragments.mainactivity.library.pager.ArtistsFragment;
-import com.kabouzeid.gramophone.ui.fragments.mainactivity.library.pager.PlaylistsFragment;
-import com.kabouzeid.gramophone.ui.fragments.mainactivity.library.pager.SongsFragment;
+import com.aoscp.musicx.ui.fragments.mainactivity.library.pager.AlbumsFragment;
+import com.aoscp.musicx.ui.fragments.mainactivity.library.pager.ArtistsFragment;
+import com.aoscp.musicx.ui.fragments.mainactivity.library.pager.PlaylistsFragment;
+import com.aoscp.musicx.ui.fragments.mainactivity.library.pager.SongsFragment;
 
 import org.omnirom.gramophone.R;
 

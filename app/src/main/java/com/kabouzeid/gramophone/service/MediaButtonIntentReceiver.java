@@ -11,7 +11,7 @@
 
 // Modified for Phonograph by Karim Abou Zeid (kabouzeid).
 
-package com.kabouzeid.gramophone.service;
+package com.aoscp.musicx.service;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

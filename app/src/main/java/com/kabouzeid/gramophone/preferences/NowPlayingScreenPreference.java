@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.preferences;
+package com.aoscp.musicx.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.glide;
+package com.aoscp.musicx.glide;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -15,8 +15,8 @@ import android.support.annotation.NonNull;
 
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
-import com.kabouzeid.gramophone.helper.StackBlur;
-import com.kabouzeid.gramophone.util.ImageUtil;
+import com.aoscp.musicx.helper.StackBlur;
+import com.aoscp.musicx.util.ImageUtil;
 
 /**
  * @author Karim Abou Zeid (kabouzeid)

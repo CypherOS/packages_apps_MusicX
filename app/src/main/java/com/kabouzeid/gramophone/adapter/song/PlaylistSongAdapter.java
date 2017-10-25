@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter.song;
+package com.aoscp.musicx.adapter.song;
 
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
@@ -9,10 +9,10 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.kabouzeid.appthemehelper.ThemeStore;
-import com.kabouzeid.gramophone.interfaces.CabHolder;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.NavigationUtil;
+import com.aoscp.musicx.interfaces.CabHolder;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.NavigationUtil;
 
 import org.omnirom.gramophone.R;
 

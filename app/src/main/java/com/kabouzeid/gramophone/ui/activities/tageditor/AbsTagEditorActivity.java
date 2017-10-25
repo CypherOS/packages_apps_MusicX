@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.activities.tageditor;
+package com.aoscp.musicx.ui.activities.tageditor;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -26,12 +26,12 @@ import com.github.ksoichiro.android.observablescrollview.ObservableScrollView;
 import com.kabouzeid.appthemehelper.ThemeStore;
 import com.kabouzeid.appthemehelper.util.ColorUtil;
 import com.kabouzeid.appthemehelper.util.TintHelper;
-import com.kabouzeid.gramophone.misc.DialogAsyncTask;
-import com.kabouzeid.gramophone.misc.SimpleObservableScrollViewCallbacks;
-import com.kabouzeid.gramophone.misc.UpdateToastMediaScannerCompletionListener;
-import com.kabouzeid.gramophone.ui.activities.base.AbsBaseActivity;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.Util;
+import com.aoscp.musicx.misc.DialogAsyncTask;
+import com.aoscp.musicx.misc.SimpleObservableScrollViewCallbacks;
+import com.aoscp.musicx.misc.UpdateToastMediaScannerCompletionListener;
+import com.aoscp.musicx.ui.activities.base.AbsBaseActivity;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.Util;
 
 import org.jaudiotagger.audio.AudioFile;
 import org.jaudiotagger.audio.AudioFileIO;

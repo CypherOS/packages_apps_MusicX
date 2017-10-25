@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.helper;
+package com.aoscp.musicx.helper;
 
 public interface M3UConstants {
     String EXTENSION = "m3u";

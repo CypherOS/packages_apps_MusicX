@@ -3,7 +3,7 @@ package org.omnirom.gramophone;
 import android.app.Application;
 import android.os.Build;
 
-import com.kabouzeid.gramophone.appshortcuts.DynamicShortcutManager;
+import com.aoscp.musicx.appshortcuts.DynamicShortcutManager;
 
 public class OmniApp extends Application {
     public static final String TAG = OmniApp.class.getSimpleName();

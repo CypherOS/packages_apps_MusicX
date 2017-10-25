@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.dialogs;
+package com.aoscp.musicx.dialogs;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.text.Html;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.kabouzeid.gramophone.model.smartplaylist.AbsSmartPlaylist;
+import com.aoscp.musicx.model.smartplaylist.AbsSmartPlaylist;
 
 import org.omnirom.gramophone.R;
 

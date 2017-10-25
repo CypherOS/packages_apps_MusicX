@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.service;
+package com.aoscp.musicx.service;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -38,28 +38,28 @@ import com.bumptech.glide.BitmapRequestBuilder;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
-import com.kabouzeid.gramophone.appwidgets.AppWidgetBig;
-import com.kabouzeid.gramophone.appwidgets.AppWidgetCard;
-import com.kabouzeid.gramophone.appwidgets.AppWidgetClassic;
-import com.kabouzeid.gramophone.appwidgets.AppWidgetSmall;
-import com.kabouzeid.gramophone.glide.BlurTransformation;
-import com.kabouzeid.gramophone.glide.SongGlideRequest;
-import com.kabouzeid.gramophone.helper.ShuffleHelper;
-import com.kabouzeid.gramophone.helper.StopWatch;
-import com.kabouzeid.gramophone.loader.PlaylistSongLoader;
-import com.kabouzeid.gramophone.model.AbsCustomPlaylist;
-import com.kabouzeid.gramophone.model.Playlist;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.provider.HistoryStore;
-import com.kabouzeid.gramophone.provider.MusicPlaybackQueueStore;
-import com.kabouzeid.gramophone.provider.SongPlayCountStore;
-import com.kabouzeid.gramophone.service.notification.PlayingNotification;
-import com.kabouzeid.gramophone.service.notification.PlayingNotificationImpl;
-import com.kabouzeid.gramophone.service.notification.PlayingNotificationImpl24;
-import com.kabouzeid.gramophone.service.playback.Playback;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
-import com.kabouzeid.gramophone.util.Util;
+import com.aoscp.musicx.appwidgets.AppWidgetBig;
+import com.aoscp.musicx.appwidgets.AppWidgetCard;
+import com.aoscp.musicx.appwidgets.AppWidgetClassic;
+import com.aoscp.musicx.appwidgets.AppWidgetSmall;
+import com.aoscp.musicx.glide.BlurTransformation;
+import com.aoscp.musicx.glide.SongGlideRequest;
+import com.aoscp.musicx.helper.ShuffleHelper;
+import com.aoscp.musicx.helper.StopWatch;
+import com.aoscp.musicx.loader.PlaylistSongLoader;
+import com.aoscp.musicx.model.AbsCustomPlaylist;
+import com.aoscp.musicx.model.Playlist;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.provider.HistoryStore;
+import com.aoscp.musicx.provider.MusicPlaybackQueueStore;
+import com.aoscp.musicx.provider.SongPlayCountStore;
+import com.aoscp.musicx.service.notification.PlayingNotification;
+import com.aoscp.musicx.service.notification.PlayingNotificationImpl;
+import com.aoscp.musicx.service.notification.PlayingNotificationImpl24;
+import com.aoscp.musicx.service.playback.Playback;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.PreferenceUtil;
+import com.aoscp.musicx.util.Util;
 
 import org.omnirom.gramophone.R;
 
@@ -74,7 +74,7 @@ import java.util.Random;
 public class MusicService extends Service implements SharedPreferences.OnSharedPreferenceChangeListener, Playback.PlaybackCallbacks {
     public static final String TAG = MusicService.class.getSimpleName();
 
-    public static final String PHONOGRAPH_PACKAGE_NAME = "com.kabouzeid.gramophone" + ".temp_sticky_intent_fix"; // TODO remove ".temp_sticky_intent_fix" in a future update.
+    public static final String PHONOGRAPH_PACKAGE_NAME = "com.aoscp.musicx" + ".temp_sticky_intent_fix"; // TODO remove ".temp_sticky_intent_fix" in a future update.
     public static final String MUSIC_PACKAGE_NAME = "com.android.music";
 
     public static final String ACTION_TOGGLE_PAUSE = PHONOGRAPH_PACKAGE_NAME + ".togglepause";
@@ -219,7 +219,7 @@ public class MusicService extends Service implements SharedPreferences.OnSharedP
 
         mediaSession.setActive(true);
 
-        sendBroadcast(new Intent("com.kabouzeid.gramophone.PHONOGRAPH_MUSIC_SERVICE_CREATED"));
+        sendBroadcast(new Intent("com.aoscp.musicx.PHONOGRAPH_MUSIC_SERVICE_CREATED"));
     }
 
     private AudioManager getAudioManager() {
@@ -360,7 +360,7 @@ public class MusicService extends Service implements SharedPreferences.OnSharedP
         PreferenceUtil.getInstance(this).unregisterOnSharedPreferenceChangedListener(this);
         wakeLock.release();
 
-        sendBroadcast(new Intent("com.kabouzeid.gramophone.PHONOGRAPH_MUSIC_SERVICE_DESTROYED"));
+        sendBroadcast(new Intent("com.aoscp.musicx.PHONOGRAPH_MUSIC_SERVICE_DESTROYED"));
     }
 
     @Override

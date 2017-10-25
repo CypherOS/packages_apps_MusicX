@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.dialogs;
+package com.aoscp.musicx.dialogs;
 
 import android.app.AlarmManager;
 import android.app.Dialog;
@@ -18,9 +18,9 @@ import android.widget.Toast;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.materialdialogs.internal.ThemeSingleton;
-import com.kabouzeid.gramophone.service.MusicService;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
+import com.aoscp.musicx.service.MusicService;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.PreferenceUtil;
 import com.triggertrap.seekarc.SeekArc;
 
 import org.omnirom.gramophone.R;

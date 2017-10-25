@@ -1,9 +1,9 @@
-package com.kabouzeid.gramophone.lastfm.rest.service;
+package com.aoscp.musicx.lastfm.rest.service;
 
 import android.support.annotation.Nullable;
 
-import com.kabouzeid.gramophone.lastfm.rest.model.LastFmAlbum;
-import com.kabouzeid.gramophone.lastfm.rest.model.LastFmArtist;
+import com.aoscp.musicx.lastfm.rest.model.LastFmAlbum;
+import com.aoscp.musicx.lastfm.rest.model.LastFmArtist;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

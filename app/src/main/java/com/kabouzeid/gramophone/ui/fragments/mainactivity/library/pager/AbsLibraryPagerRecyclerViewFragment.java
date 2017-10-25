@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.mainactivity.library.pager;
+package com.aoscp.musicx.ui.fragments.mainactivity.library.pager;
 
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.kabouzeid.appthemehelper.ThemeStore;
-import com.kabouzeid.gramophone.util.ViewUtil;
+import com.aoscp.musicx.util.ViewUtil;
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 
 import org.omnirom.gramophone.R;

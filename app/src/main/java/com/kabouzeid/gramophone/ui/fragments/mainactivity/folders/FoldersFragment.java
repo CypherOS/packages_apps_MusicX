@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.mainactivity.folders;
+package com.aoscp.musicx.ui.fragments.mainactivity.folders;
 
 
 import android.app.Dialog;
@@ -34,23 +34,23 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import com.kabouzeid.appthemehelper.ThemeStore;
 import com.kabouzeid.appthemehelper.common.ATHToolbarActivity;
 import com.kabouzeid.appthemehelper.util.ToolbarContentTintHelper;
-import com.kabouzeid.gramophone.adapter.SongFileAdapter;
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.helper.menu.SongMenuHelper;
-import com.kabouzeid.gramophone.helper.menu.SongsMenuHelper;
-import com.kabouzeid.gramophone.interfaces.CabHolder;
-import com.kabouzeid.gramophone.interfaces.LoaderIds;
-import com.kabouzeid.gramophone.misc.DialogAsyncTask;
-import com.kabouzeid.gramophone.misc.UpdateToastMediaScannerCompletionListener;
-import com.kabouzeid.gramophone.misc.WrappedAsyncTaskLoader;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.ui.activities.MainActivity;
-import com.kabouzeid.gramophone.ui.fragments.mainactivity.AbsMainActivityFragment;
-import com.kabouzeid.gramophone.util.FileUtil;
-import com.kabouzeid.gramophone.util.PhonographColorUtil;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
-import com.kabouzeid.gramophone.util.ViewUtil;
-import com.kabouzeid.gramophone.views.BreadCrumbLayout;
+import com.aoscp.musicx.adapter.SongFileAdapter;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.helper.menu.SongMenuHelper;
+import com.aoscp.musicx.helper.menu.SongsMenuHelper;
+import com.aoscp.musicx.interfaces.CabHolder;
+import com.aoscp.musicx.interfaces.LoaderIds;
+import com.aoscp.musicx.misc.DialogAsyncTask;
+import com.aoscp.musicx.misc.UpdateToastMediaScannerCompletionListener;
+import com.aoscp.musicx.misc.WrappedAsyncTaskLoader;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.ui.activities.MainActivity;
+import com.aoscp.musicx.ui.fragments.mainactivity.AbsMainActivityFragment;
+import com.aoscp.musicx.util.FileUtil;
+import com.aoscp.musicx.util.PhonographColorUtil;
+import com.aoscp.musicx.util.PreferenceUtil;
+import com.aoscp.musicx.util.ViewUtil;
+import com.aoscp.musicx.views.BreadCrumbLayout;
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 
 import org.omnirom.gramophone.R;

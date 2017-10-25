@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter;
+package com.aoscp.musicx.adapter;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,11 +10,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.kabouzeid.gramophone.glide.PhonographColoredTarget;
-import com.kabouzeid.gramophone.glide.SongGlideRequest;
-import com.kabouzeid.gramophone.misc.CustomFragmentStatePagerAdapter;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
+import com.aoscp.musicx.glide.PhonographColoredTarget;
+import com.aoscp.musicx.glide.SongGlideRequest;
+import com.aoscp.musicx.misc.CustomFragmentStatePagerAdapter;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.PreferenceUtil;
 
 import org.omnirom.gramophone.R;
 

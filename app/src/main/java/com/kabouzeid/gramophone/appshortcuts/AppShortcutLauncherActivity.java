@@ -1,24 +1,24 @@
-package com.kabouzeid.gramophone.appshortcuts;
+package com.aoscp.musicx.appshortcuts;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.kabouzeid.gramophone.appshortcuts.shortcuttype.LastAddedShortcutType;
-import com.kabouzeid.gramophone.appshortcuts.shortcuttype.ShuffleAllShortcutType;
-import com.kabouzeid.gramophone.appshortcuts.shortcuttype.TopTracksShortcutType;
-import com.kabouzeid.gramophone.model.Playlist;
-import com.kabouzeid.gramophone.model.smartplaylist.LastAddedPlaylist;
-import com.kabouzeid.gramophone.model.smartplaylist.MyTopTracksPlaylist;
-import com.kabouzeid.gramophone.model.smartplaylist.ShuffleAllPlaylist;
-import com.kabouzeid.gramophone.service.MusicService;
+import com.aoscp.musicx.appshortcuts.shortcuttype.LastAddedShortcutType;
+import com.aoscp.musicx.appshortcuts.shortcuttype.ShuffleAllShortcutType;
+import com.aoscp.musicx.appshortcuts.shortcuttype.TopTracksShortcutType;
+import com.aoscp.musicx.model.Playlist;
+import com.aoscp.musicx.model.smartplaylist.LastAddedPlaylist;
+import com.aoscp.musicx.model.smartplaylist.MyTopTracksPlaylist;
+import com.aoscp.musicx.model.smartplaylist.ShuffleAllPlaylist;
+import com.aoscp.musicx.service.MusicService;
 
 /**
  * @author Adrian Campos
  */
 
 public class AppShortcutLauncherActivity extends Activity {
-    public static final String KEY_SHORTCUT_TYPE = "com.kabouzeid.gramophone.appshortcuts.ShortcutType";
+    public static final String KEY_SHORTCUT_TYPE = "com.aoscp.musicx.appshortcuts.ShortcutType";
 
     public static final int SHORTCUT_TYPE_SHUFFLE_ALL = 0;
     public static final int SHORTCUT_TYPE_TOP_TRACKS = 1;

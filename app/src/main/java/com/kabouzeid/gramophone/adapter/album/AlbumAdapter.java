@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter.album;
+package com.aoscp.musicx.adapter.album;
 
 import android.graphics.drawable.Drawable;
 import android.support.annotation.LayoutRes;
@@ -14,16 +14,16 @@ import android.view.ViewGroup;
 import com.bumptech.glide.Glide;
 import com.kabouzeid.appthemehelper.util.ColorUtil;
 import com.kabouzeid.appthemehelper.util.MaterialValueHelper;
-import com.kabouzeid.gramophone.adapter.base.AbsMultiSelectAdapter;
-import com.kabouzeid.gramophone.adapter.base.MediaEntryViewHolder;
-import com.kabouzeid.gramophone.glide.PhonographColoredTarget;
-import com.kabouzeid.gramophone.glide.SongGlideRequest;
-import com.kabouzeid.gramophone.helper.menu.SongsMenuHelper;
-import com.kabouzeid.gramophone.interfaces.CabHolder;
-import com.kabouzeid.gramophone.model.Album;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.NavigationUtil;
+import com.aoscp.musicx.adapter.base.AbsMultiSelectAdapter;
+import com.aoscp.musicx.adapter.base.MediaEntryViewHolder;
+import com.aoscp.musicx.glide.PhonographColoredTarget;
+import com.aoscp.musicx.glide.SongGlideRequest;
+import com.aoscp.musicx.helper.menu.SongsMenuHelper;
+import com.aoscp.musicx.interfaces.CabHolder;
+import com.aoscp.musicx.model.Album;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.NavigationUtil;
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 
 import org.omnirom.gramophone.R;

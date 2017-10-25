@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.util;
+package com.aoscp.musicx.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.annotation.StyleRes;
 
-import com.kabouzeid.gramophone.helper.SortOrder;
-import com.kabouzeid.gramophone.ui.fragments.mainactivity.folders.FoldersFragment;
-import com.kabouzeid.gramophone.ui.fragments.player.NowPlayingScreen;
+import com.aoscp.musicx.helper.SortOrder;
+import com.aoscp.musicx.ui.fragments.mainactivity.folders.FoldersFragment;
+import com.aoscp.musicx.ui.fragments.player.NowPlayingScreen;
 
 import org.omnirom.gramophone.R;
 

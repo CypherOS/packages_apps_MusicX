@@ -1,7 +1,7 @@
-package com.kabouzeid.gramophone.util;
+package com.aoscp.musicx.util;
 
-import com.kabouzeid.gramophone.lastfm.rest.model.LastFmAlbum.Album;
-import com.kabouzeid.gramophone.lastfm.rest.model.LastFmArtist.Artist;
+import com.aoscp.musicx.lastfm.rest.model.LastFmAlbum.Album;
+import com.aoscp.musicx.lastfm.rest.model.LastFmArtist.Artist;
 
 import java.util.HashMap;
 import java.util.List;

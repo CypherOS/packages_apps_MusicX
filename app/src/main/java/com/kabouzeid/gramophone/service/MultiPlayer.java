@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.service;
+package com.aoscp.musicx.service;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,8 +11,8 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.kabouzeid.gramophone.service.playback.Playback;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
+import com.aoscp.musicx.service.playback.Playback;
+import com.aoscp.musicx.util.PreferenceUtil;
 
 import org.omnirom.gramophone.R;
 

@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.helper;
+package com.aoscp.musicx.helper;
 
 import android.app.SearchManager;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 
-import com.kabouzeid.gramophone.loader.SongLoader;
-import com.kabouzeid.gramophone.model.Song;
+import com.aoscp.musicx.loader.SongLoader;
+import com.aoscp.musicx.model.Song;
 
 import java.util.ArrayList;
 

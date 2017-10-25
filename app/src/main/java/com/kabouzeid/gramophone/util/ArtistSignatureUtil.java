@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.util;
+package com.aoscp.musicx.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

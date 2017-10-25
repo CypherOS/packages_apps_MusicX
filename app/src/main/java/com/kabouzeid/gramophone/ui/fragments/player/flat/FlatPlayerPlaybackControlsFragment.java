@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.player.flat;
+package com.aoscp.musicx.ui.fragments.player.flat;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -16,14 +16,14 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.kabouzeid.appthemehelper.util.MaterialValueHelper;
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.helper.MusicProgressViewUpdateHelper;
-import com.kabouzeid.gramophone.helper.PlayPauseButtonOnClickHandler;
-import com.kabouzeid.gramophone.misc.SimpleOnSeekbarChangeListener;
-import com.kabouzeid.gramophone.service.MusicService;
-import com.kabouzeid.gramophone.ui.fragments.AbsMusicServiceFragment;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.views.PlayPauseDrawable;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.helper.MusicProgressViewUpdateHelper;
+import com.aoscp.musicx.helper.PlayPauseButtonOnClickHandler;
+import com.aoscp.musicx.misc.SimpleOnSeekbarChangeListener;
+import com.aoscp.musicx.service.MusicService;
+import com.aoscp.musicx.ui.fragments.AbsMusicServiceFragment;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.views.PlayPauseDrawable;
 
 import org.omnirom.gramophone.R;
 

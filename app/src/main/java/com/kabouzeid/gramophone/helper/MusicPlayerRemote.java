@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.helper;
+package com.aoscp.musicx.helper;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -18,9 +18,9 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.widget.Toast;
 
-import com.kabouzeid.gramophone.loader.SongLoader;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.service.MusicService;
+import com.aoscp.musicx.loader.SongLoader;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.service.MusicService;
 
 import org.omnirom.gramophone.R;
 

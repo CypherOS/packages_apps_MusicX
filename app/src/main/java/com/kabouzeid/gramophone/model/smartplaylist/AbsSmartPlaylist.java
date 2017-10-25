@@ -1,11 +1,11 @@
-package com.kabouzeid.gramophone.model.smartplaylist;
+package com.aoscp.musicx.model.smartplaylist;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.support.annotation.DrawableRes;
 import android.support.annotation.Nullable;
 
-import com.kabouzeid.gramophone.model.AbsCustomPlaylist;
+import com.aoscp.musicx.model.AbsCustomPlaylist;
 
 import org.omnirom.gramophone.R;
 

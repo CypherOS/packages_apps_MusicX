@@ -1,11 +1,11 @@
-package com.kabouzeid.gramophone.model.smartplaylist;
+package com.aoscp.musicx.model.smartplaylist;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.support.annotation.NonNull;
 
-import com.kabouzeid.gramophone.loader.SongLoader;
-import com.kabouzeid.gramophone.model.Song;
+import com.aoscp.musicx.loader.SongLoader;
+import com.aoscp.musicx.model.Song;
 
 import org.omnirom.gramophone.R;
 import java.util.ArrayList;

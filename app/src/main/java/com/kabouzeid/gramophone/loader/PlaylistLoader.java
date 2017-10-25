@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.loader;
+package com.aoscp.musicx.loader;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -8,7 +8,7 @@ import android.provider.MediaStore.Audio.PlaylistsColumns;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.kabouzeid.gramophone.model.Playlist;
+import com.aoscp.musicx.model.Playlist;
 
 import java.util.ArrayList;
 

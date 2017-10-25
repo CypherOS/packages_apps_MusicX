@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter.album;
+package com.aoscp.musicx.adapter.album;
 
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
@@ -11,11 +11,11 @@ import android.view.ViewGroup;
 import com.bumptech.glide.Glide;
 import com.kabouzeid.appthemehelper.util.ColorUtil;
 import com.kabouzeid.appthemehelper.util.MaterialValueHelper;
-import com.kabouzeid.gramophone.glide.PhonographColoredTarget;
-import com.kabouzeid.gramophone.glide.SongGlideRequest;
-import com.kabouzeid.gramophone.helper.HorizontalAdapterHelper;
-import com.kabouzeid.gramophone.interfaces.CabHolder;
-import com.kabouzeid.gramophone.model.Album;
+import com.aoscp.musicx.glide.PhonographColoredTarget;
+import com.aoscp.musicx.glide.SongGlideRequest;
+import com.aoscp.musicx.helper.HorizontalAdapterHelper;
+import com.aoscp.musicx.interfaces.CabHolder;
+import com.aoscp.musicx.model.Album;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.appshortcuts;
+package com.aoscp.musicx.appshortcuts;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -11,8 +11,8 @@ import android.support.annotation.RequiresApi;
 import android.util.TypedValue;
 
 import com.kabouzeid.appthemehelper.ThemeStore;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
-import com.kabouzeid.gramophone.util.Util;
+import com.aoscp.musicx.util.PreferenceUtil;
+import com.aoscp.musicx.util.Util;
 
 import org.omnirom.gramophone.R;
 

@@ -1,12 +1,12 @@
-package com.kabouzeid.gramophone.model.smartplaylist;
+package com.aoscp.musicx.model.smartplaylist;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.support.annotation.NonNull;
 
-import com.kabouzeid.gramophone.loader.TopAndRecentlyPlayedTracksLoader;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.provider.HistoryStore;
+import com.aoscp.musicx.loader.TopAndRecentlyPlayedTracksLoader;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.provider.HistoryStore;
 
 import org.omnirom.gramophone.R;
 

@@ -24,7 +24,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Phonograph"
         tools:ignore="UnusedAttribute">
-        <activity android:name="com.kabouzeid.gramophone.ui.activities.MainActivity">
+        <activity android:name="com.aoscp.musicx.ui.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.MUSIC_PLAYER" />
@@ -95,39 +95,39 @@
                 <data android:mimeType="vnd.android.cursor.dir/audio" />
             </intent-filter>
         </activity>
-        <activity android:name="com.kabouzeid.gramophone.ui.activities.AlbumDetailActivity" />
-        <activity android:name="com.kabouzeid.gramophone.ui.activities.ArtistDetailActivity" />
-        <activity android:name="com.kabouzeid.gramophone.ui.activities.PlaylistDetailActivity" />
+        <activity android:name="com.aoscp.musicx.ui.activities.AlbumDetailActivity" />
+        <activity android:name="com.aoscp.musicx.ui.activities.ArtistDetailActivity" />
+        <activity android:name="com.aoscp.musicx.ui.activities.PlaylistDetailActivity" />
         <activity
-            android:name="com.kabouzeid.gramophone.ui.activities.tageditor.SongTagEditorActivity"
+            android:name="com.aoscp.musicx.ui.activities.tageditor.SongTagEditorActivity"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.kabouzeid.gramophone.ui.activities.tageditor.AlbumTagEditorActivity"
+            android:name="com.aoscp.musicx.ui.activities.tageditor.AlbumTagEditorActivity"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name="com.kabouzeid.gramophone.ui.activities.SearchActivity" />
+        <activity android:name="com.aoscp.musicx.ui.activities.SearchActivity" />
         <activity
-            android:name="com.kabouzeid.gramophone.ui.activities.SettingsActivity"
+            android:name="com.aoscp.musicx.ui.activities.SettingsActivity"
             android:label="@string/action_settings" />
         <activity
-            android:name="com.kabouzeid.gramophone.ui.activities.AboutActivity"
+            android:name="com.aoscp.musicx.ui.activities.AboutActivity"
             android:label="@string/action_about" />
         <activity
-            android:name="com.kabouzeid.gramophone.ui.activities.intro.AppIntroActivity"
+            android:name="com.aoscp.musicx.ui.activities.intro.AppIntroActivity"
             android:label="@string/intro_label"
             android:theme="@style/Theme.Intro" />
         <activity
-            android:name="com.kabouzeid.gramophone.ui.activities.bugreport.BugReportActivity"
+            android:name="com.aoscp.musicx.ui.activities.bugreport.BugReportActivity"
             android:label="@string/report_an_issue" />
         <activity
-            android:name="com.kabouzeid.gramophone.appshortcuts.AppShortcutLauncherActivity"
+            android:name="com.aoscp.musicx.appshortcuts.AppShortcutLauncherActivity"
             android:launchMode="singleInstance"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <service
-            android:name="com.kabouzeid.gramophone.service.MusicService"
+            android:name="com.aoscp.musicx.service.MusicService"
             android:enabled="true" />
 
-        <receiver android:name="com.kabouzeid.gramophone.service.MediaButtonIntentReceiver">
+        <receiver android:name="com.aoscp.musicx.service.MediaButtonIntentReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
@@ -137,22 +137,22 @@
             android:name="android.max_aspect"
             android:value="2.1" />
         <meta-data
-            android:name="com.kabouzeid.gramophone.glide.PhonographGlideModule"
+            android:name="com.aoscp.musicx.glide.PhonographGlideModule"
             android:value="GlideModule" />
         <meta-data
             android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
             android:value="GlideModule" />
 
         <activity
-            android:name="com.kabouzeid.gramophone.ui.activities.tageditor.SongTagEditorActivity"
+            android:name="com.aoscp.musicx.ui.activities.tageditor.SongTagEditorActivity"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.kabouzeid.gramophone.ui.activities.tageditor.AlbumTagEditorActivity"
+            android:name="com.aoscp.musicx.ui.activities.tageditor.AlbumTagEditorActivity"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name="com.kabouzeid.gramophone.ui.activities.SearchActivity" />
+        <activity android:name="com.aoscp.musicx.ui.activities.SearchActivity" />
 
 
-        <receiver android:name="com.kabouzeid.gramophone.appwidgets.BootReceiver" >
+        <receiver android:name="com.aoscp.musicx.appwidgets.BootReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.QUICKBOOT_POWERON" />
@@ -160,7 +160,7 @@
         </receiver>
 
         <receiver
-            android:name="com.kabouzeid.gramophone.appwidgets.AppWidgetBig"
+            android:name="com.aoscp.musicx.appwidgets.AppWidgetBig"
             android:exported="false"
             android:label="@string/app_widget_big_name">
             <intent-filter>
@@ -172,7 +172,7 @@
                 android:resource="@xml/app_widget_big_info" />
         </receiver>
         <receiver
-            android:name="com.kabouzeid.gramophone.appwidgets.AppWidgetClassic"
+            android:name="com.aoscp.musicx.appwidgets.AppWidgetClassic"
             android:exported="false"
             android:label="@string/app_widget_classic_name">
             <intent-filter>
@@ -184,7 +184,7 @@
                 android:resource="@xml/app_widget_classic_info" />
         </receiver>
         <receiver
-            android:name="com.kabouzeid.gramophone.appwidgets.AppWidgetSmall"
+            android:name="com.aoscp.musicx.appwidgets.AppWidgetSmall"
             android:exported="false"
             android:label="@string/app_widget_small_name">
             <intent-filter>
@@ -196,7 +196,7 @@
                 android:resource="@xml/app_widget_small_info" />
         </receiver>
         <receiver
-            android:name="com.kabouzeid.gramophone.appwidgets.AppWidgetCard"
+            android:name="com.aoscp.musicx.appwidgets.AppWidgetCard"
             android:exported="false"
             android:label="@string/app_widget_card_name">
             <intent-filter>
@@ -209,19 +209,19 @@
         </receiver>
 
         <activity
-            android:name="com.kabouzeid.gramophone.ui.activities.SettingsActivity"
+            android:name="com.aoscp.musicx.ui.activities.SettingsActivity"
             android:label="@string/action_settings"
             android:theme="@style/Theme.Phonograph.Settings" />
-        <activity android:name="com.kabouzeid.gramophone.ui.activities.PlaylistDetailActivity" />
+        <activity android:name="com.aoscp.musicx.ui.activities.PlaylistDetailActivity" />
         <activity
-            android:name="com.kabouzeid.gramophone.ui.activities.AboutActivity"
+            android:name="com.aoscp.musicx.ui.activities.AboutActivity"
             android:label="@string/action_about" />
         <activity
-            android:name="com.kabouzeid.gramophone.ui.activities.intro.AppIntroActivity"
+            android:name="com.aoscp.musicx.ui.activities.intro.AppIntroActivity"
             android:label="@string/intro_label"
             android:theme="@style/Theme.Intro" />
         <activity
-            android:name="com.kabouzeid.gramophone.appshortcuts.AppShortcutLauncherActivity"
+            android:name="com.aoscp.musicx.appshortcuts.AppShortcutLauncherActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:launchMode="singleInstance"/>
     </application>

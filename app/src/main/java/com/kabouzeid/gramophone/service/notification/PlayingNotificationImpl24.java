@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.service.notification;
+package com.aoscp.musicx.service.notification;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -17,17 +17,17 @@ import android.text.TextUtils;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
-import com.kabouzeid.gramophone.glide.SongGlideRequest;
-import com.kabouzeid.gramophone.glide.palette.BitmapPaletteWrapper;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.service.MusicService;
-import com.kabouzeid.gramophone.ui.activities.MainActivity;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
+import com.aoscp.musicx.glide.SongGlideRequest;
+import com.aoscp.musicx.glide.palette.BitmapPaletteWrapper;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.service.MusicService;
+import com.aoscp.musicx.ui.activities.MainActivity;
+import com.aoscp.musicx.util.PreferenceUtil;
 
 import static android.content.Context.NOTIFICATION_SERVICE;
-import static com.kabouzeid.gramophone.service.MusicService.ACTION_REWIND;
-import static com.kabouzeid.gramophone.service.MusicService.ACTION_SKIP;
-import static com.kabouzeid.gramophone.service.MusicService.ACTION_TOGGLE_PAUSE;
+import static com.aoscp.musicx.service.MusicService.ACTION_REWIND;
+import static com.aoscp.musicx.service.MusicService.ACTION_SKIP;
+import static com.aoscp.musicx.service.MusicService.ACTION_TOGGLE_PAUSE;
 
 import org.omnirom.gramophone.R;
 

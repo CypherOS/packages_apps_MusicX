@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.service.notification;
+package com.aoscp.musicx.service.notification;
 
 /**
  * @author Karim Abou Zeid (kabouzeid)
@@ -26,14 +26,14 @@ import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.target.Target;
 import com.kabouzeid.appthemehelper.util.ColorUtil;
 import com.kabouzeid.appthemehelper.util.MaterialValueHelper;
-import com.kabouzeid.gramophone.glide.SongGlideRequest;
-import com.kabouzeid.gramophone.glide.palette.BitmapPaletteWrapper;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.service.MusicService;
-import com.kabouzeid.gramophone.ui.activities.MainActivity;
-import com.kabouzeid.gramophone.util.PhonographColorUtil;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
-import com.kabouzeid.gramophone.util.Util;
+import com.aoscp.musicx.glide.SongGlideRequest;
+import com.aoscp.musicx.glide.palette.BitmapPaletteWrapper;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.service.MusicService;
+import com.aoscp.musicx.ui.activities.MainActivity;
+import com.aoscp.musicx.util.PhonographColorUtil;
+import com.aoscp.musicx.util.PreferenceUtil;
+import com.aoscp.musicx.util.Util;
 
 import org.omnirom.gramophone.R;
 

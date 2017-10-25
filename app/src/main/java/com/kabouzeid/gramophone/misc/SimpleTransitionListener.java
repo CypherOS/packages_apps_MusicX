@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.misc;
+package com.aoscp.musicx.misc;
 
 import android.annotation.TargetApi;
 import android.os.Build;

@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.glide.palette;
+package com.aoscp.musicx.glide.palette;
 
 import android.graphics.Bitmap;
 import android.support.v7.graphics.Palette;

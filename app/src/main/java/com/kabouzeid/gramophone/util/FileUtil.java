@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.util;
+package com.aoscp.musicx.util;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -7,9 +7,9 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.webkit.MimeTypeMap;
 
-import com.kabouzeid.gramophone.loader.SongLoader;
-import com.kabouzeid.gramophone.loader.SortedCursor;
-import com.kabouzeid.gramophone.model.Song;
+import com.aoscp.musicx.loader.SongLoader;
+import com.aoscp.musicx.loader.SortedCursor;
+import com.aoscp.musicx.model.Song;
 
 import java.io.File;
 import java.io.FileFilter;

@@ -13,7 +13,7 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-package com.kabouzeid.gramophone.provider;
+package com.aoscp.musicx.provider;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -25,8 +25,8 @@ import android.provider.MediaStore.Audio.AudioColumns;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.kabouzeid.gramophone.loader.SongLoader;
-import com.kabouzeid.gramophone.model.Song;
+import com.aoscp.musicx.loader.SongLoader;
+import com.aoscp.musicx.model.Song;
 
 import java.util.ArrayList;
 

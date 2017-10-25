@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.util;
+package com.aoscp.musicx.util;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -9,11 +9,11 @@ import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.util.Pair;
 import android.widget.Toast;
 
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.model.Playlist;
-import com.kabouzeid.gramophone.ui.activities.AlbumDetailActivity;
-import com.kabouzeid.gramophone.ui.activities.ArtistDetailActivity;
-import com.kabouzeid.gramophone.ui.activities.PlaylistDetailActivity;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.model.Playlist;
+import com.aoscp.musicx.ui.activities.AlbumDetailActivity;
+import com.aoscp.musicx.ui.activities.ArtistDetailActivity;
+import com.aoscp.musicx.ui.activities.PlaylistDetailActivity;
 
 import org.omnirom.gramophone.R;
 

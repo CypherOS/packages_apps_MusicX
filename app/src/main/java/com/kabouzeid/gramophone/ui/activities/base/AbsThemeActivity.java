@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.activities.base;
+package com.aoscp.musicx.ui.activities.base;
 
 import android.graphics.Color;
 import android.os.Build;
@@ -11,8 +11,8 @@ import com.kabouzeid.appthemehelper.ThemeStore;
 import com.kabouzeid.appthemehelper.common.ATHToolbarActivity;
 import com.kabouzeid.appthemehelper.util.ColorUtil;
 import com.kabouzeid.appthemehelper.util.MaterialDialogsUtil;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
-import com.kabouzeid.gramophone.util.Util;
+import com.aoscp.musicx.util.PreferenceUtil;
+import com.aoscp.musicx.util.Util;
 
 import org.omnirom.gramophone.R;
 

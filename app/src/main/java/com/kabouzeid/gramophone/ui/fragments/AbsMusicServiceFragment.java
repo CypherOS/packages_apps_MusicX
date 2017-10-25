@@ -1,12 +1,12 @@
-package com.kabouzeid.gramophone.ui.fragments;
+package com.aoscp.musicx.ui.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.View;
 
-import com.kabouzeid.gramophone.interfaces.MusicServiceEventListener;
-import com.kabouzeid.gramophone.ui.activities.base.AbsMusicServiceActivity;
+import com.aoscp.musicx.interfaces.MusicServiceEventListener;
+import com.aoscp.musicx.ui.activities.base.AbsMusicServiceActivity;
 
 /**
  * @author Karim Abou Zeid (kabouzeid)

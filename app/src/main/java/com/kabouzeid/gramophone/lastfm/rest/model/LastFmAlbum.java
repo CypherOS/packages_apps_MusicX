@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.lastfm.rest.model;
+package com.aoscp.musicx.lastfm.rest.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

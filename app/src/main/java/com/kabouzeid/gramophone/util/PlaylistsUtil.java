@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.util;
+package com.aoscp.musicx.util;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -12,10 +12,10 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.widget.Toast;
 
-import com.kabouzeid.gramophone.helper.M3UWriter;
-import com.kabouzeid.gramophone.model.Playlist;
-import com.kabouzeid.gramophone.model.PlaylistSong;
-import com.kabouzeid.gramophone.model.Song;
+import com.aoscp.musicx.helper.M3UWriter;
+import com.aoscp.musicx.model.Playlist;
+import com.aoscp.musicx.model.PlaylistSong;
+import com.aoscp.musicx.model.Song;
 
 import org.omnirom.gramophone.R;
 

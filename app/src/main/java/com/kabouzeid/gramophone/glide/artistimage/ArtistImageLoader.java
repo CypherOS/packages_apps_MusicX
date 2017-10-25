@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.glide.artistimage;
+package com.aoscp.musicx.glide.artistimage;
 
 import android.content.Context;
 
@@ -9,7 +9,7 @@ import com.bumptech.glide.load.model.GlideUrl;
 import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.stream.StreamModelLoader;
-import com.kabouzeid.gramophone.lastfm.rest.LastFMRestClient;
+import com.aoscp.musicx.lastfm.rest.LastFMRestClient;
 
 import java.io.InputStream;
 import java.util.concurrent.TimeUnit;

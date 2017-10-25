@@ -1,23 +1,23 @@
-package com.kabouzeid.gramophone.ui.fragments.player;
+package com.aoscp.musicx.ui.fragments.player;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import com.kabouzeid.gramophone.dialogs.AddToPlaylistDialog;
-import com.kabouzeid.gramophone.dialogs.CreatePlaylistDialog;
-import com.kabouzeid.gramophone.dialogs.SleepTimerDialog;
-import com.kabouzeid.gramophone.dialogs.SongDetailDialog;
-import com.kabouzeid.gramophone.dialogs.SongShareDialog;
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.interfaces.PaletteColorHolder;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.ui.activities.tageditor.AbsTagEditorActivity;
-import com.kabouzeid.gramophone.ui.activities.tageditor.SongTagEditorActivity;
-import com.kabouzeid.gramophone.ui.fragments.AbsMusicServiceFragment;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.NavigationUtil;
+import com.aoscp.musicx.dialogs.AddToPlaylistDialog;
+import com.aoscp.musicx.dialogs.CreatePlaylistDialog;
+import com.aoscp.musicx.dialogs.SleepTimerDialog;
+import com.aoscp.musicx.dialogs.SongDetailDialog;
+import com.aoscp.musicx.dialogs.SongShareDialog;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.interfaces.PaletteColorHolder;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.ui.activities.tageditor.AbsTagEditorActivity;
+import com.aoscp.musicx.ui.activities.tageditor.SongTagEditorActivity;
+import com.aoscp.musicx.ui.fragments.AbsMusicServiceFragment;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.NavigationUtil;
 
 import org.omnirom.gramophone.R;
 

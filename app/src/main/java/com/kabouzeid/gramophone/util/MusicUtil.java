@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.util;
+package com.aoscp.musicx.util;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;
@@ -16,13 +16,13 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.loader.PlaylistLoader;
-import com.kabouzeid.gramophone.loader.SongLoader;
-import com.kabouzeid.gramophone.model.Artist;
-import com.kabouzeid.gramophone.model.Playlist;
-import com.kabouzeid.gramophone.model.PlaylistSong;
-import com.kabouzeid.gramophone.model.Song;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.loader.PlaylistLoader;
+import com.aoscp.musicx.loader.SongLoader;
+import com.aoscp.musicx.model.Artist;
+import com.aoscp.musicx.model.Playlist;
+import com.aoscp.musicx.model.PlaylistSong;
+import com.aoscp.musicx.model.Song;
 
 import org.omnirom.gramophone.R;
 

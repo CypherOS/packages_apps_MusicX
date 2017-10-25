@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.activities;
+package com.aoscp.musicx.ui.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -22,13 +22,13 @@ import android.preference.TwoStatePreference;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.preferences.NowPlayingScreenPreference;
-import com.kabouzeid.gramophone.preferences.NowPlayingScreenPreferenceDialog;
-import com.kabouzeid.gramophone.service.MusicService;
-import com.kabouzeid.gramophone.ui.fragments.player.NowPlayingScreen;
-import com.kabouzeid.gramophone.util.NavigationUtil;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.preferences.NowPlayingScreenPreference;
+import com.aoscp.musicx.preferences.NowPlayingScreenPreferenceDialog;
+import com.aoscp.musicx.service.MusicService;
+import com.aoscp.musicx.ui.fragments.player.NowPlayingScreen;
+import com.aoscp.musicx.util.NavigationUtil;
+import com.aoscp.musicx.util.PreferenceUtil;
 
 import org.omnirom.gramophone.R;
 

@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.glide.artistimage;
+package com.aoscp.musicx.glide.artistimage;
 
 import android.content.Context;
 
@@ -6,11 +6,11 @@ import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.data.DataFetcher;
 import com.bumptech.glide.load.model.GlideUrl;
 import com.bumptech.glide.load.model.ModelLoader;
-import com.kabouzeid.gramophone.lastfm.rest.LastFMRestClient;
-import com.kabouzeid.gramophone.lastfm.rest.model.LastFmArtist;
-import com.kabouzeid.gramophone.util.LastFMUtil;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.Util;
+import com.aoscp.musicx.lastfm.rest.LastFMRestClient;
+import com.aoscp.musicx.lastfm.rest.model.LastFmArtist;
+import com.aoscp.musicx.util.LastFMUtil;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.Util;
 
 import java.io.IOException;
 import java.io.InputStream;

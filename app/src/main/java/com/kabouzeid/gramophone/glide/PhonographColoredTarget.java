@@ -1,13 +1,13 @@
-package com.kabouzeid.gramophone.glide;
+package com.aoscp.musicx.glide;
 
 import android.graphics.drawable.Drawable;
 import android.widget.ImageView;
 
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.kabouzeid.appthemehelper.util.ATHUtil;
-import com.kabouzeid.gramophone.glide.palette.BitmapPaletteTarget;
-import com.kabouzeid.gramophone.glide.palette.BitmapPaletteWrapper;
-import com.kabouzeid.gramophone.util.PhonographColorUtil;
+import com.aoscp.musicx.glide.palette.BitmapPaletteTarget;
+import com.aoscp.musicx.glide.palette.BitmapPaletteWrapper;
+import com.aoscp.musicx.util.PhonographColorUtil;
 
 import org.omnirom.gramophone.R;
 

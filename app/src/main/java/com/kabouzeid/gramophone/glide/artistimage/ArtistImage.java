@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.glide.artistimage;
+package com.aoscp.musicx.glide.artistimage;
 
 /**
  * @author Karim Abou Zeid (kabouzeid)

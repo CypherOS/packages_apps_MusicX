@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.appwidgets;
+package com.aoscp.musicx.appwidgets;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -15,7 +15,7 @@ import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.widget.RemoteViews;
 
-import com.kabouzeid.gramophone.service.MusicService;
+import com.aoscp.musicx.service.MusicService;
 
 public abstract class BaseAppWidget extends AppWidgetProvider {
     public static final String NAME = "app_widget";

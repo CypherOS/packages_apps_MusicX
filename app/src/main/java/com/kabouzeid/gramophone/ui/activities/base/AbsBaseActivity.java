@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.activities.base;
+package com.aoscp.musicx.ui.activities.base;
 
 import android.Manifest;
 import android.content.Intent;

@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.model;
+package com.aoscp.musicx.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.appshortcuts;
+package com.aoscp.musicx.appshortcuts;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -8,9 +8,9 @@ import android.content.pm.ShortcutManager;
 import android.graphics.drawable.Icon;
 import android.os.Build;
 
-import com.kabouzeid.gramophone.appshortcuts.shortcuttype.LastAddedShortcutType;
-import com.kabouzeid.gramophone.appshortcuts.shortcuttype.ShuffleAllShortcutType;
-import com.kabouzeid.gramophone.appshortcuts.shortcuttype.TopTracksShortcutType;
+import com.aoscp.musicx.appshortcuts.shortcuttype.LastAddedShortcutType;
+import com.aoscp.musicx.appshortcuts.shortcuttype.ShuffleAllShortcutType;
+import com.aoscp.musicx.appshortcuts.shortcuttype.TopTracksShortcutType;
 
 import java.util.Arrays;
 import java.util.List;

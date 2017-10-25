@@ -1,12 +1,12 @@
-package com.kabouzeid.gramophone.loader;
+package com.aoscp.musicx.loader;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.PreferenceUtil;
 
 import java.util.ArrayList;
 

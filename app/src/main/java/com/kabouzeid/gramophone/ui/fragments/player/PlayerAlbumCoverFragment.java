@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.player;
+package com.aoscp.musicx.ui.fragments.player;
 
 import android.animation.Animator;
 import android.os.Bundle;
@@ -12,11 +12,11 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 
-import com.kabouzeid.gramophone.adapter.AlbumCoverPagerAdapter;
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.misc.SimpleAnimatorListener;
-import com.kabouzeid.gramophone.ui.fragments.AbsMusicServiceFragment;
-import com.kabouzeid.gramophone.util.ViewUtil;
+import com.aoscp.musicx.adapter.AlbumCoverPagerAdapter;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.misc.SimpleAnimatorListener;
+import com.aoscp.musicx.ui.fragments.AbsMusicServiceFragment;
+import com.aoscp.musicx.util.ViewUtil;
 
 import org.omnirom.gramophone.R;
 

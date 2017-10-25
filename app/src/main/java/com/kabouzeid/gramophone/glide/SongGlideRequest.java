@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.glide;
+package com.aoscp.musicx.glide;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,12 +12,12 @@ import com.bumptech.glide.load.Key;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.signature.MediaStoreSignature;
-import com.kabouzeid.gramophone.glide.audiocover.AudioFileCover;
-import com.kabouzeid.gramophone.glide.palette.BitmapPaletteTranscoder;
-import com.kabouzeid.gramophone.glide.palette.BitmapPaletteWrapper;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
+import com.aoscp.musicx.glide.audiocover.AudioFileCover;
+import com.aoscp.musicx.glide.palette.BitmapPaletteTranscoder;
+import com.aoscp.musicx.glide.palette.BitmapPaletteWrapper;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.PreferenceUtil;
 
 import org.omnirom.gramophone.R;
 

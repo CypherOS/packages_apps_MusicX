@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.player;
+package com.aoscp.musicx.ui.fragments.player;
 
 import android.support.annotation.DrawableRes;
 import android.support.annotation.StringRes;

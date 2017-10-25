@@ -1,11 +1,11 @@
-package com.kabouzeid.gramophone.helper;
+package com.aoscp.musicx.helper;
 
 import android.content.Context;
 
-import com.kabouzeid.gramophone.loader.PlaylistSongLoader;
-import com.kabouzeid.gramophone.model.Playlist;
-import com.kabouzeid.gramophone.model.PlaylistSong;
-import com.kabouzeid.gramophone.model.Song;
+import com.aoscp.musicx.loader.PlaylistSongLoader;
+import com.aoscp.musicx.model.Playlist;
+import com.aoscp.musicx.model.PlaylistSong;
+import com.aoscp.musicx.model.Song;
 
 import java.io.BufferedWriter;
 import java.io.File;

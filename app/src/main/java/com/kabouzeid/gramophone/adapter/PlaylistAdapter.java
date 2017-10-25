@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter;
+package com.aoscp.musicx.adapter;
 
 import android.graphics.PorterDuff;
 import android.os.Build;
@@ -13,21 +13,21 @@ import android.view.ViewGroup;
 import android.widget.PopupMenu;
 
 import com.kabouzeid.appthemehelper.util.ATHUtil;
-import com.kabouzeid.gramophone.adapter.base.AbsMultiSelectAdapter;
-import com.kabouzeid.gramophone.adapter.base.MediaEntryViewHolder;
-import com.kabouzeid.gramophone.dialogs.ClearSmartPlaylistDialog;
-import com.kabouzeid.gramophone.dialogs.DeletePlaylistDialog;
-import com.kabouzeid.gramophone.helper.menu.PlaylistMenuHelper;
-import com.kabouzeid.gramophone.helper.menu.SongsMenuHelper;
-import com.kabouzeid.gramophone.interfaces.CabHolder;
-import com.kabouzeid.gramophone.loader.PlaylistSongLoader;
-import com.kabouzeid.gramophone.model.AbsCustomPlaylist;
-import com.kabouzeid.gramophone.model.Playlist;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.model.smartplaylist.AbsSmartPlaylist;
-import com.kabouzeid.gramophone.model.smartplaylist.LastAddedPlaylist;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.NavigationUtil;
+import com.aoscp.musicx.adapter.base.AbsMultiSelectAdapter;
+import com.aoscp.musicx.adapter.base.MediaEntryViewHolder;
+import com.aoscp.musicx.dialogs.ClearSmartPlaylistDialog;
+import com.aoscp.musicx.dialogs.DeletePlaylistDialog;
+import com.aoscp.musicx.helper.menu.PlaylistMenuHelper;
+import com.aoscp.musicx.helper.menu.SongsMenuHelper;
+import com.aoscp.musicx.interfaces.CabHolder;
+import com.aoscp.musicx.loader.PlaylistSongLoader;
+import com.aoscp.musicx.model.AbsCustomPlaylist;
+import com.aoscp.musicx.model.Playlist;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.model.smartplaylist.AbsSmartPlaylist;
+import com.aoscp.musicx.model.smartplaylist.LastAddedPlaylist;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.NavigationUtil;
 
 import org.omnirom.gramophone.R;
 

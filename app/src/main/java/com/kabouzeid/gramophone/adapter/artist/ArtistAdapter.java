@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter.artist;
+package com.aoscp.musicx.adapter.artist;
 
 import android.graphics.drawable.Drawable;
 import android.support.annotation.LayoutRes;
@@ -17,19 +17,19 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.target.Target;
 import com.kabouzeid.appthemehelper.util.ColorUtil;
 import com.kabouzeid.appthemehelper.util.MaterialValueHelper;
-import com.kabouzeid.gramophone.adapter.base.AbsMultiSelectAdapter;
-import com.kabouzeid.gramophone.adapter.base.MediaEntryViewHolder;
-import com.kabouzeid.gramophone.glide.PhonographColoredTarget;
-import com.kabouzeid.gramophone.glide.artistimage.ArtistImage;
-import com.kabouzeid.gramophone.glide.palette.BitmapPaletteTranscoder;
-import com.kabouzeid.gramophone.glide.palette.BitmapPaletteWrapper;
-import com.kabouzeid.gramophone.helper.menu.SongsMenuHelper;
-import com.kabouzeid.gramophone.interfaces.CabHolder;
-import com.kabouzeid.gramophone.model.Artist;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.ArtistSignatureUtil;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.NavigationUtil;
+import com.aoscp.musicx.adapter.base.AbsMultiSelectAdapter;
+import com.aoscp.musicx.adapter.base.MediaEntryViewHolder;
+import com.aoscp.musicx.glide.PhonographColoredTarget;
+import com.aoscp.musicx.glide.artistimage.ArtistImage;
+import com.aoscp.musicx.glide.palette.BitmapPaletteTranscoder;
+import com.aoscp.musicx.glide.palette.BitmapPaletteWrapper;
+import com.aoscp.musicx.helper.menu.SongsMenuHelper;
+import com.aoscp.musicx.interfaces.CabHolder;
+import com.aoscp.musicx.model.Artist;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.ArtistSignatureUtil;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.NavigationUtil;
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
 
 import org.omnirom.gramophone.R;

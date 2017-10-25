@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.misc;
+package com.aoscp.musicx.misc;
 
 /*
  * Copyright (C) 2011 The Android Open Source Project

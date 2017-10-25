@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.helper.menu;
+package com.aoscp.musicx.helper.menu;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -9,14 +9,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.kabouzeid.gramophone.dialogs.DeletePlaylistDialog;
-import com.kabouzeid.gramophone.dialogs.RenamePlaylistDialog;
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.loader.PlaylistSongLoader;
-import com.kabouzeid.gramophone.model.AbsCustomPlaylist;
-import com.kabouzeid.gramophone.model.Playlist;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.PlaylistsUtil;
+import com.aoscp.musicx.dialogs.DeletePlaylistDialog;
+import com.aoscp.musicx.dialogs.RenamePlaylistDialog;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.loader.PlaylistSongLoader;
+import com.aoscp.musicx.model.AbsCustomPlaylist;
+import com.aoscp.musicx.model.Playlist;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.PlaylistsUtil;
 
 import org.omnirom.gramophone.R;
 

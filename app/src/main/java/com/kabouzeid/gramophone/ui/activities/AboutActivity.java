@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.activities;
+package com.aoscp.musicx.ui.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,9 +15,9 @@ import android.widget.TextView;
 
 import com.afollestad.materialdialogs.internal.ThemeSingleton;
 import com.kabouzeid.appthemehelper.ThemeStore;
-import com.kabouzeid.gramophone.dialogs.ChangelogDialog;
-import com.kabouzeid.gramophone.ui.activities.base.AbsBaseActivity;
-import com.kabouzeid.gramophone.ui.activities.intro.AppIntroActivity;
+import com.aoscp.musicx.dialogs.ChangelogDialog;
+import com.aoscp.musicx.ui.activities.base.AbsBaseActivity;
+import com.aoscp.musicx.ui.activities.intro.AppIntroActivity;
 
 import org.omnirom.gramophone.R;
 
@@ -37,7 +37,7 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
 
     private static String GOOGLE_PLUS_COMMUNITY = "https://plus.google.com/u/0/communities/106227738496107108513";
     private static String TRANSLATE = "https://phonograph.oneskyapp.com/collaboration/project?id=26521";
-    private static String RATE_ON_GOOGLE_PLAY = "https://play.google.com/store/apps/details?id=com.kabouzeid.gramophone";
+    private static String RATE_ON_GOOGLE_PLAY = "https://play.google.com/store/apps/details?id=com.aoscp.musicx";
 
     private static String AIDAN_FOLLESTAD_GOOGLE_PLUS = "https://google.com/+AidanFollestad";
     private static String AIDAN_FOLLESTAD_GITHUB = "https://github.com/afollestad";

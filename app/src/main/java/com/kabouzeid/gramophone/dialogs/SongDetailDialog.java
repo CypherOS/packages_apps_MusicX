@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.dialogs;
+package com.aoscp.musicx.dialogs;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -12,8 +12,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.MusicUtil;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.MusicUtil;
 
 import org.jaudiotagger.audio.AudioFile;
 import org.jaudiotagger.audio.AudioFileIO;

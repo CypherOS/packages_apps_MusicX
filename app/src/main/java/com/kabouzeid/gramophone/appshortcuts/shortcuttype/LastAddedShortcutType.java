@@ -1,12 +1,12 @@
-package com.kabouzeid.gramophone.appshortcuts.shortcuttype;
+package com.aoscp.musicx.appshortcuts.shortcuttype;
 
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.pm.ShortcutInfo;
 import android.os.Build;
 
-import com.kabouzeid.gramophone.appshortcuts.AppShortcutIconGenerator;
-import com.kabouzeid.gramophone.appshortcuts.AppShortcutLauncherActivity;
+import com.aoscp.musicx.appshortcuts.AppShortcutIconGenerator;
+import com.aoscp.musicx.appshortcuts.AppShortcutLauncherActivity;
 
 import org.omnirom.gramophone.R;
 

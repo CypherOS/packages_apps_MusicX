@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.mainactivity.library;
+package com.aoscp.musicx.ui.fragments.mainactivity.library;
 
 
 import android.app.Activity;
@@ -26,16 +26,16 @@ import com.kabouzeid.appthemehelper.ThemeStore;
 import com.kabouzeid.appthemehelper.common.ATHToolbarActivity;
 import com.kabouzeid.appthemehelper.util.TabLayoutUtil;
 import com.kabouzeid.appthemehelper.util.ToolbarContentTintHelper;
-import com.kabouzeid.gramophone.adapter.MusicLibraryPagerAdapter;
-import com.kabouzeid.gramophone.dialogs.CreatePlaylistDialog;
-import com.kabouzeid.gramophone.interfaces.CabHolder;
-import com.kabouzeid.gramophone.ui.activities.MainActivity;
-import com.kabouzeid.gramophone.ui.activities.SearchActivity;
-import com.kabouzeid.gramophone.ui.fragments.mainactivity.AbsMainActivityFragment;
-import com.kabouzeid.gramophone.ui.fragments.mainactivity.library.pager.AbsLibraryPagerRecyclerViewCustomGridSizeFragment;
-import com.kabouzeid.gramophone.util.PhonographColorUtil;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
-import com.kabouzeid.gramophone.util.Util;
+import com.aoscp.musicx.adapter.MusicLibraryPagerAdapter;
+import com.aoscp.musicx.dialogs.CreatePlaylistDialog;
+import com.aoscp.musicx.interfaces.CabHolder;
+import com.aoscp.musicx.ui.activities.MainActivity;
+import com.aoscp.musicx.ui.activities.SearchActivity;
+import com.aoscp.musicx.ui.fragments.mainactivity.AbsMainActivityFragment;
+import com.aoscp.musicx.ui.fragments.mainactivity.library.pager.AbsLibraryPagerRecyclerViewCustomGridSizeFragment;
+import com.aoscp.musicx.util.PhonographColorUtil;
+import com.aoscp.musicx.util.PreferenceUtil;
+import com.aoscp.musicx.util.Util;
 
 import org.omnirom.gramophone.R;
 

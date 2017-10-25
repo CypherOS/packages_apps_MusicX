@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.preferences;
+package com.aoscp.musicx.preferences;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -18,9 +18,9 @@ import android.widget.TextView;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.heinrichreimersoftware.materialintro.view.InkPageIndicator;
-import com.kabouzeid.gramophone.ui.fragments.player.NowPlayingScreen;
-import com.kabouzeid.gramophone.util.PreferenceUtil;
-import com.kabouzeid.gramophone.util.ViewUtil;
+import com.aoscp.musicx.ui.fragments.player.NowPlayingScreen;
+import com.aoscp.musicx.util.PreferenceUtil;
+import com.aoscp.musicx.util.ViewUtil;
 
 import org.omnirom.gramophone.R;
 

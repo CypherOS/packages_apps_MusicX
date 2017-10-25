@@ -1,6 +1,6 @@
-package com.kabouzeid.gramophone.service.notification;
+package com.aoscp.musicx.service.notification;
 
-import com.kabouzeid.gramophone.service.MusicService;
+import com.aoscp.musicx.service.MusicService;
 
 /**
  * @author Karim Abou Zeid (kabouzeid)

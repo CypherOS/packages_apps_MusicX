@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package com.kabouzeid.gramophone.provider;
+package com.aoscp.musicx.provider;
 
 import android.content.ContentValues;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.mainactivity.library.pager;
+package com.aoscp.musicx.ui.fragments.mainactivity.library.pager;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,14 +7,14 @@ import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 import android.support.v7.widget.LinearLayoutManager;
 
-import com.kabouzeid.gramophone.adapter.PlaylistAdapter;
-import com.kabouzeid.gramophone.interfaces.LoaderIds;
-import com.kabouzeid.gramophone.loader.PlaylistLoader;
-import com.kabouzeid.gramophone.misc.WrappedAsyncTaskLoader;
-import com.kabouzeid.gramophone.model.Playlist;
-import com.kabouzeid.gramophone.model.smartplaylist.HistoryPlaylist;
-import com.kabouzeid.gramophone.model.smartplaylist.LastAddedPlaylist;
-import com.kabouzeid.gramophone.model.smartplaylist.MyTopTracksPlaylist;
+import com.aoscp.musicx.adapter.PlaylistAdapter;
+import com.aoscp.musicx.interfaces.LoaderIds;
+import com.aoscp.musicx.loader.PlaylistLoader;
+import com.aoscp.musicx.misc.WrappedAsyncTaskLoader;
+import com.aoscp.musicx.model.Playlist;
+import com.aoscp.musicx.model.smartplaylist.HistoryPlaylist;
+import com.aoscp.musicx.model.smartplaylist.LastAddedPlaylist;
+import com.aoscp.musicx.model.smartplaylist.MyTopTracksPlaylist;
 
 import org.omnirom.gramophone.R;
 

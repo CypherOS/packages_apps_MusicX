@@ -1,8 +1,8 @@
-package com.kabouzeid.gramophone.helper;
+package com.aoscp.musicx.helper;
 
 import android.support.annotation.NonNull;
 
-import com.kabouzeid.gramophone.model.Song;
+import com.aoscp.musicx.model.Song;
 
 import java.util.Collections;
 import java.util.List;

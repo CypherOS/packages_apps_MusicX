@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.appwidgets;
+package com.aoscp.musicx.appwidgets;
 
 import android.appwidget.AppWidgetManager;
 import android.content.BroadcastReceiver;
@@ -6,7 +6,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 
-import com.kabouzeid.gramophone.service.MusicService;
+import com.aoscp.musicx.service.MusicService;
 
 /**
  * @author Eugene Cheung (arkon)

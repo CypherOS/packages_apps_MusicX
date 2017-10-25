@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.dialogs;
+package com.aoscp.musicx.dialogs;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -8,8 +8,8 @@ import android.support.v4.app.DialogFragment;
 import android.view.View;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.MusicUtil;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.MusicUtil;
 
 import org.omnirom.gramophone.R;
 

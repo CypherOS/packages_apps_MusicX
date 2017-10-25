@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.player.flat;
+package com.aoscp.musicx.ui.fragments.player.flat;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -32,19 +32,19 @@ import com.kabouzeid.appthemehelper.ThemeStore;
 import com.kabouzeid.appthemehelper.util.ATHUtil;
 import com.kabouzeid.appthemehelper.util.ColorUtil;
 import com.kabouzeid.appthemehelper.util.ToolbarContentTintHelper;
-import com.kabouzeid.gramophone.adapter.base.MediaEntryViewHolder;
-import com.kabouzeid.gramophone.adapter.song.PlayingQueueAdapter;
-import com.kabouzeid.gramophone.dialogs.SongShareDialog;
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.helper.menu.SongMenuHelper;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.ui.activities.base.AbsSlidingMusicPanelActivity;
-import com.kabouzeid.gramophone.ui.fragments.player.AbsPlayerFragment;
-import com.kabouzeid.gramophone.ui.fragments.player.PlayerAlbumCoverFragment;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.Util;
-import com.kabouzeid.gramophone.util.ViewUtil;
-import com.kabouzeid.gramophone.views.WidthFitSquareLayout;
+import com.aoscp.musicx.adapter.base.MediaEntryViewHolder;
+import com.aoscp.musicx.adapter.song.PlayingQueueAdapter;
+import com.aoscp.musicx.dialogs.SongShareDialog;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.helper.menu.SongMenuHelper;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.ui.activities.base.AbsSlidingMusicPanelActivity;
+import com.aoscp.musicx.ui.fragments.player.AbsPlayerFragment;
+import com.aoscp.musicx.ui.fragments.player.PlayerAlbumCoverFragment;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.Util;
+import com.aoscp.musicx.util.ViewUtil;
+import com.aoscp.musicx.views.WidthFitSquareLayout;
 import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 
 import org.omnirom.gramophone.R;

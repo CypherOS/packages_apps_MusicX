@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.glide.audiocover;
+package com.aoscp.musicx.glide.audiocover;
 
 import android.content.Context;
 

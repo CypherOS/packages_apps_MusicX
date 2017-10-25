@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.activities;
+package com.aoscp.musicx.ui.activities;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -18,14 +18,14 @@ import android.widget.SearchView;
 import android.widget.TextView;
 
 import com.kabouzeid.appthemehelper.ThemeStore;
-import com.kabouzeid.gramophone.adapter.SearchAdapter;
-import com.kabouzeid.gramophone.interfaces.LoaderIds;
-import com.kabouzeid.gramophone.loader.AlbumLoader;
-import com.kabouzeid.gramophone.loader.ArtistLoader;
-import com.kabouzeid.gramophone.loader.SongLoader;
-import com.kabouzeid.gramophone.misc.WrappedAsyncTaskLoader;
-import com.kabouzeid.gramophone.ui.activities.base.AbsMusicServiceActivity;
-import com.kabouzeid.gramophone.util.Util;
+import com.aoscp.musicx.adapter.SearchAdapter;
+import com.aoscp.musicx.interfaces.LoaderIds;
+import com.aoscp.musicx.loader.AlbumLoader;
+import com.aoscp.musicx.loader.ArtistLoader;
+import com.aoscp.musicx.loader.SongLoader;
+import com.aoscp.musicx.misc.WrappedAsyncTaskLoader;
+import com.aoscp.musicx.ui.activities.base.AbsMusicServiceActivity;
+import com.aoscp.musicx.util.Util;
 
 import org.omnirom.gramophone.R;
 

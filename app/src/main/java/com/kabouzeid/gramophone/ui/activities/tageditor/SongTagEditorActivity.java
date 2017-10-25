@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.activities.tageditor;
+package com.aoscp.musicx.ui.activities.tageditor;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.text.TextWatcher;
 import android.widget.EditText;
 
 import com.kabouzeid.appthemehelper.util.ToolbarContentTintHelper;
-import com.kabouzeid.gramophone.loader.SongLoader;
+import com.aoscp.musicx.loader.SongLoader;
 
 import org.jaudiotagger.tag.FieldKey;
 

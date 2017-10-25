@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.misc;
+package com.aoscp.musicx.misc;
 
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
 import com.github.ksoichiro.android.observablescrollview.ScrollState;

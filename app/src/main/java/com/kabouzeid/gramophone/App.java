@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone;
+package com.aoscp.musicx;
 
 import android.app.Application;
 

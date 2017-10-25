@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.helper;
+package com.aoscp.musicx.helper;
 
 import android.content.Context;
 import android.view.ViewGroup;

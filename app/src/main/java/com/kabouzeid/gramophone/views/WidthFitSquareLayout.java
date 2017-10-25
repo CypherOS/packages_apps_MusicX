@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.views;
+package com.aoscp.musicx.views;
 
 import android.annotation.TargetApi;
 import android.content.Context;

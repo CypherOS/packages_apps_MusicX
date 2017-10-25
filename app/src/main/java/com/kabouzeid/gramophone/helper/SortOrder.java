@@ -9,7 +9,7 @@
  * governing permissions and limitations under the License.
  */
 
-package com.kabouzeid.gramophone.helper;
+package com.aoscp.musicx.helper;
 
 import android.provider.MediaStore;
 

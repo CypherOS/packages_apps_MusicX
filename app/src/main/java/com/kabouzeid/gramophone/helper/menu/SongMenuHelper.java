@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.helper.menu;
+package com.aoscp.musicx.helper.menu;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -8,16 +8,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.PopupMenu;
 
-import com.kabouzeid.gramophone.dialogs.AddToPlaylistDialog;
-import com.kabouzeid.gramophone.dialogs.DeleteSongsDialog;
-import com.kabouzeid.gramophone.dialogs.SongDetailDialog;
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.interfaces.PaletteColorHolder;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.ui.activities.tageditor.AbsTagEditorActivity;
-import com.kabouzeid.gramophone.ui.activities.tageditor.SongTagEditorActivity;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.NavigationUtil;
+import com.aoscp.musicx.dialogs.AddToPlaylistDialog;
+import com.aoscp.musicx.dialogs.DeleteSongsDialog;
+import com.aoscp.musicx.dialogs.SongDetailDialog;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.interfaces.PaletteColorHolder;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.ui.activities.tageditor.AbsTagEditorActivity;
+import com.aoscp.musicx.ui.activities.tageditor.SongTagEditorActivity;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.NavigationUtil;
 
 import org.omnirom.gramophone.R;
 

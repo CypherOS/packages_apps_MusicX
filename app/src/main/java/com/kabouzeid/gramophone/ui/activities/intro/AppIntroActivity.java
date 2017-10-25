@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.activities.intro;
+package com.aoscp.musicx.ui.activities.intro;
 
 import android.os.Bundle;
 

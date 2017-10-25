@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter;
+package com.aoscp.musicx.adapter;
 
 import android.os.Build;
 import android.support.annotation.NonNull;
@@ -14,17 +14,17 @@ import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.target.Target;
 import com.kabouzeid.appthemehelper.util.ATHUtil;
-import com.kabouzeid.gramophone.adapter.base.MediaEntryViewHolder;
-import com.kabouzeid.gramophone.glide.SongGlideRequest;
-import com.kabouzeid.gramophone.glide.artistimage.ArtistImage;
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.helper.menu.SongMenuHelper;
-import com.kabouzeid.gramophone.model.Album;
-import com.kabouzeid.gramophone.model.Artist;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.ArtistSignatureUtil;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.util.NavigationUtil;
+import com.aoscp.musicx.adapter.base.MediaEntryViewHolder;
+import com.aoscp.musicx.glide.SongGlideRequest;
+import com.aoscp.musicx.glide.artistimage.ArtistImage;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.helper.menu.SongMenuHelper;
+import com.aoscp.musicx.model.Album;
+import com.aoscp.musicx.model.Artist;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.ArtistSignatureUtil;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.util.NavigationUtil;
 
 import org.omnirom.gramophone.R;
 

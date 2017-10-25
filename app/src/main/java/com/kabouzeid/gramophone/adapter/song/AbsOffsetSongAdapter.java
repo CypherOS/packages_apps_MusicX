@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter.song;
+package com.aoscp.musicx.adapter.song;
 
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
@@ -8,9 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.interfaces.CabHolder;
-import com.kabouzeid.gramophone.model.Song;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.interfaces.CabHolder;
+import com.aoscp.musicx.model.Song;
 
 import org.omnirom.gramophone.R;
 

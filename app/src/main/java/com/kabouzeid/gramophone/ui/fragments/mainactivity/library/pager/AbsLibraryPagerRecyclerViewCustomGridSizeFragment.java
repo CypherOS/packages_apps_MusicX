@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.mainactivity.library.pager;
+package com.aoscp.musicx.ui.fragments.mainactivity.library.pager;
 
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
@@ -6,7 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.kabouzeid.gramophone.util.Util;
+import com.aoscp.musicx.util.Util;
 
 import org.omnirom.gramophone.R;
 

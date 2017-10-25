@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter.base;
+package com.aoscp.musicx.adapter.base;
 
 import android.os.Build;
 import android.support.annotation.NonNull;

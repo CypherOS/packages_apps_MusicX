@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.fragments.player.card;
+package com.aoscp.musicx.ui.fragments.player.card;
 
 import android.graphics.Color;
 import android.graphics.PorterDuff;
@@ -15,14 +15,14 @@ import android.widget.TextView;
 import com.kabouzeid.appthemehelper.util.ColorUtil;
 import com.kabouzeid.appthemehelper.util.MaterialValueHelper;
 import com.kabouzeid.appthemehelper.util.TintHelper;
-import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
-import com.kabouzeid.gramophone.helper.MusicProgressViewUpdateHelper;
-import com.kabouzeid.gramophone.helper.PlayPauseButtonOnClickHandler;
-import com.kabouzeid.gramophone.misc.SimpleOnSeekbarChangeListener;
-import com.kabouzeid.gramophone.service.MusicService;
-import com.kabouzeid.gramophone.ui.fragments.AbsMusicServiceFragment;
-import com.kabouzeid.gramophone.util.MusicUtil;
-import com.kabouzeid.gramophone.views.PlayPauseDrawable;
+import com.aoscp.musicx.helper.MusicPlayerRemote;
+import com.aoscp.musicx.helper.MusicProgressViewUpdateHelper;
+import com.aoscp.musicx.helper.PlayPauseButtonOnClickHandler;
+import com.aoscp.musicx.misc.SimpleOnSeekbarChangeListener;
+import com.aoscp.musicx.service.MusicService;
+import com.aoscp.musicx.ui.fragments.AbsMusicServiceFragment;
+import com.aoscp.musicx.util.MusicUtil;
+import com.aoscp.musicx.views.PlayPauseDrawable;
 
 import org.omnirom.gramophone.R;
 

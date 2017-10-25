@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.views;
+package com.aoscp.musicx.views;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

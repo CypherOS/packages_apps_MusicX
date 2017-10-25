@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.adapter.base;
+package com.aoscp.musicx.adapter.base;
 
 import android.content.Context;
 import android.support.annotation.MenuRes;
@@ -8,7 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.afollestad.materialcab.MaterialCab;
-import com.kabouzeid.gramophone.interfaces.CabHolder;
+import com.aoscp.musicx.interfaces.CabHolder;
 
 import org.omnirom.gramophone.R;
 

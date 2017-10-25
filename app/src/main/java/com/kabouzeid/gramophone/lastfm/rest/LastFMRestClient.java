@@ -1,10 +1,10 @@
-package com.kabouzeid.gramophone.lastfm.rest;
+package com.aoscp.musicx.lastfm.rest;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.kabouzeid.gramophone.lastfm.rest.service.LastFMService;
+import com.aoscp.musicx.lastfm.rest.service.LastFMService;
 
 import java.io.File;
 import java.io.IOException;

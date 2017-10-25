@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package com.kabouzeid.gramophone.loader;
+package com.aoscp.musicx.loader;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -22,9 +22,9 @@ import android.provider.BaseColumns;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.provider.HistoryStore;
-import com.kabouzeid.gramophone.provider.SongPlayCountStore;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.provider.HistoryStore;
+import com.aoscp.musicx.provider.SongPlayCountStore;
 
 import java.util.ArrayList;
 

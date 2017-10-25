@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.ui.activities.tageditor;
+package com.aoscp.musicx.ui.activities.tageditor;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -19,14 +19,14 @@ import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.kabouzeid.appthemehelper.util.ATHUtil;
 import com.kabouzeid.appthemehelper.util.ToolbarContentTintHelper;
-import com.kabouzeid.gramophone.glide.palette.BitmapPaletteTranscoder;
-import com.kabouzeid.gramophone.glide.palette.BitmapPaletteWrapper;
-import com.kabouzeid.gramophone.lastfm.rest.LastFMRestClient;
-import com.kabouzeid.gramophone.lastfm.rest.model.LastFmAlbum;
-import com.kabouzeid.gramophone.loader.AlbumLoader;
-import com.kabouzeid.gramophone.model.Song;
-import com.kabouzeid.gramophone.util.LastFMUtil;
-import com.kabouzeid.gramophone.util.PhonographColorUtil;
+import com.aoscp.musicx.glide.palette.BitmapPaletteTranscoder;
+import com.aoscp.musicx.glide.palette.BitmapPaletteWrapper;
+import com.aoscp.musicx.lastfm.rest.LastFMRestClient;
+import com.aoscp.musicx.lastfm.rest.model.LastFmAlbum;
+import com.aoscp.musicx.loader.AlbumLoader;
+import com.aoscp.musicx.model.Song;
+import com.aoscp.musicx.util.LastFMUtil;
+import com.aoscp.musicx.util.PhonographColorUtil;
 
 import org.jaudiotagger.tag.FieldKey;
 

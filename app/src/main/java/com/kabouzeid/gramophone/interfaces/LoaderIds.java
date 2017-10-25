@@ -1,4 +1,4 @@
-package com.kabouzeid.gramophone.interfaces;
+package com.aoscp.musicx.interfaces;
 
 /**
  * @author Karim Abou Zeid (kabouzeid)
