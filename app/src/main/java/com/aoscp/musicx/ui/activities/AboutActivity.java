@@ -17,7 +17,6 @@ import com.afollestad.materialdialogs.internal.ThemeSingleton;
 import com.kabouzeid.appthemehelper.ThemeStore;
 import com.aoscp.musicx.dialogs.ChangelogDialog;
 import com.aoscp.musicx.ui.activities.base.AbsBaseActivity;
-import com.aoscp.musicx.ui.activities.intro.AppIntroActivity;
 
 import org.omnirom.gramophone.R;
 
@@ -52,7 +51,6 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
     Toolbar toolbar;
     TextView appVersion;
     LinearLayout changelog;
-    LinearLayout intro;
     LinearLayout licenses;
     LinearLayout writeAnEmail;
     LinearLayout addToGooglePlusCircles;
@@ -78,7 +76,6 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         appVersion = (TextView) findViewById(R.id.app_version);
         changelog = (LinearLayout) findViewById(R.id.changelog);
-        intro = (LinearLayout) findViewById(R.id.intro);
         licenses = (LinearLayout) findViewById(R.id.licenses);
         writeAnEmail = (LinearLayout) findViewById(R.id.write_an_email);
         addToGooglePlusCircles = (LinearLayout) findViewById(R.id.add_to_google_plus_circles);
@@ -122,7 +119,6 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
 
     private void setUpOnClickListeners() {
         changelog.setOnClickListener(this);
-        intro.setOnClickListener(this);
         licenses.setOnClickListener(this);
         addToGooglePlusCircles.setOnClickListener(this);
         followOnTwitter.setOnClickListener(this);
@@ -165,8 +161,6 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
             ChangelogDialog.create().show(getSupportFragmentManager(), "CHANGELOG_DIALOG");
         } else if (v == licenses) {
             showLicenseDialog();
-        } else if (v == intro) {
-            startActivity(new Intent(this, AppIntroActivity.class));
         } else if (v == addToGooglePlusCircles) {
             openUrl(GOOGLE_PLUS);
         } else if (v == followOnTwitter) {
