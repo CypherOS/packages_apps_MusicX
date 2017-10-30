@@ -37,7 +37,6 @@ import com.aoscp.musicx.loader.PlaylistSongLoader;
 import com.aoscp.musicx.model.Song;
 import com.aoscp.musicx.service.MusicService;
 import com.aoscp.musicx.ui.activities.base.AbsSlidingMusicPanelActivity;
-import com.aoscp.musicx.ui.activities.intro.AppIntroActivity;
 import com.aoscp.musicx.ui.fragments.mainactivity.folders.FoldersFragment;
 import com.aoscp.musicx.ui.fragments.mainactivity.library.LibraryFragment;
 import com.aoscp.musicx.util.PreferenceUtil;
@@ -51,7 +50,6 @@ import java.util.ArrayList;
 public class MainActivity extends AbsSlidingMusicPanelActivity {
 
     public static final String TAG = MainActivity.class.getSimpleName();
-    public static final int APP_INTRO_REQUEST = 100;
 
     private static final int LIBRARY = 0;
     private static final int FOLDERS = 1;
@@ -96,10 +94,6 @@ public class MainActivity extends AbsSlidingMusicPanelActivity {
             setMusicChooser(PreferenceUtil.getInstance(this).getLastMusicChooser());
         } else {
             restoreCurrentFragment();
-        }
-
-        if (!checkShowIntro()) {
-            checkShowChangelog();
         }
     }
 
@@ -182,14 +176,6 @@ public class MainActivity extends AbsSlidingMusicPanelActivity {
                             @Override
                             public void run() {
                                 startActivity(new Intent(MainActivity.this, SettingsActivity.class));
-                            }
-                        }, 200);
-                        break;
-                    case R.id.nav_about:
-                        new Handler().postDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                                startActivity(new Intent(MainActivity.this, AboutActivity.class));
                             }
                         }, 200);
                         break;
@@ -344,22 +330,6 @@ public class MainActivity extends AbsSlidingMusicPanelActivity {
     public void onPanelCollapsed(View view) {
         super.onPanelCollapsed(view);
         drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
-    }
-
-    private boolean checkShowIntro() {
-        if (!PreferenceUtil.getInstance(this).introShown()) {
-            PreferenceUtil.getInstance(this).setIntroShown();
-            ChangelogDialog.setChangelogRead(this);
-            blockRequestPermissions = true;
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    startActivityForResult(new Intent(MainActivity.this, AppIntroActivity.class), APP_INTRO_REQUEST);
-                }
-            }, 50);
-            return true;
-        }
-        return false;
     }
 
     private boolean checkShowChangelog() {

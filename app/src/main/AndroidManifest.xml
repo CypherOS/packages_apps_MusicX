@@ -109,13 +109,6 @@
             android:name="com.aoscp.musicx.ui.activities.SettingsActivity"
             android:label="@string/action_settings" />
         <activity
-            android:name="com.aoscp.musicx.ui.activities.AboutActivity"
-            android:label="@string/action_about" />
-        <activity
-            android:name="com.aoscp.musicx.ui.activities.intro.AppIntroActivity"
-            android:label="@string/intro_label"
-            android:theme="@style/Theme.Intro" />
-        <activity
             android:name="com.aoscp.musicx.ui.activities.bugreport.BugReportActivity"
             android:label="@string/report_an_issue" />
         <activity
@@ -213,13 +206,6 @@
             android:label="@string/action_settings"
             android:theme="@style/Theme.Phonograph.Settings" />
         <activity android:name="com.aoscp.musicx.ui.activities.PlaylistDetailActivity" />
-        <activity
-            android:name="com.aoscp.musicx.ui.activities.AboutActivity"
-            android:label="@string/action_about" />
-        <activity
-            android:name="com.aoscp.musicx.ui.activities.intro.AppIntroActivity"
-            android:label="@string/intro_label"
-            android:theme="@style/Theme.Intro" />
         <activity
             android:name="com.aoscp.musicx.appshortcuts.AppShortcutLauncherActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
