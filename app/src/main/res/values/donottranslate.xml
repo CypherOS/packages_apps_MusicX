@@ -40,5 +40,5 @@
         }
     </string>
 
-    <string name="id_shortcuttype">com.aoscp.musicx.appshortcuts.ShortcutType</string>
+    <string name="id_shortcuttype">co.aoscp.musicx.appshortcuts.ShortcutType</string>
 </resources>
