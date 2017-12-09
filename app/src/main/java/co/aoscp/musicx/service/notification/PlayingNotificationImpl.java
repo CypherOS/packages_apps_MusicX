@@ -31,6 +31,8 @@ import co.aoscp.musicx.util.PhonographColorUtil;
 import co.aoscp.musicx.util.PreferenceUtil;
 import co.aoscp.musicx.util.Util;
 
+import co.aoscp.musicx.R;
+
 public class PlayingNotificationImpl extends PlayingNotification {
 
     private MusicService service;
