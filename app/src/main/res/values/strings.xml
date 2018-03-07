@@ -264,10 +264,10 @@
     <string name="could_not_scan_files">Could not scan %d files.</string>
     <string name="listing_files">Listing files</string>
     <string name="new_start_directory">%s is the new start directory.</string>
-    <string name="app_widget_big_name">Phonograph - Big</string>
-    <string name="app_widget_classic_name">Phonograph - Classic</string>
-    <string name="app_widget_small_name">Phonograph - Small</string>
-    <string name="app_widget_card_name">Phonograph - Card</string>
+    <string name="app_widget_big_name">Music - Big</string>
+    <string name="app_widget_classic_name">Music - Classic</string>
+    <string name="app_widget_small_name">Music - Small</string>
+    <string name="app_widget_card_name">Music - Card</string>
     <string name="report_an_issue">Report an issue</string>
     <string name="bug_report_issue">Issue</string>
     <string name="login">Login</string>
