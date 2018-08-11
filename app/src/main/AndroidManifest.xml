@@ -106,9 +106,6 @@
             android:windowSoftInputMode="adjustResize" />
         <activity android:name="co.aoscp.musicx.ui.activities.SearchActivity" />
         <activity
-            android:name="co.aoscp.musicx.ui.activities.SettingsActivity"
-            android:label="@string/action_settings" />
-        <activity
             android:name="co.aoscp.musicx.ui.activities.bugreport.BugReportActivity"
             android:label="@string/report_an_issue" />
         <activity
@@ -135,14 +132,6 @@
         <meta-data
             android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
             android:value="GlideModule" />
-
-        <activity
-            android:name="co.aoscp.musicx.ui.activities.tageditor.SongTagEditorActivity"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name="co.aoscp.musicx.ui.activities.tageditor.AlbumTagEditorActivity"
-            android:windowSoftInputMode="adjustResize" />
-        <activity android:name="co.aoscp.musicx.ui.activities.SearchActivity" />
 
 
         <receiver android:name="co.aoscp.musicx.appwidgets.BootReceiver" >
